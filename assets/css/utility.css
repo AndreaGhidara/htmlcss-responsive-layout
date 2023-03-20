@@ -119,6 +119,26 @@
 /*****************
     Padding
 *****************/
+/* Top */
+.padTop0{padding-top: 0.5rem;}
+
+.padTop1{padding-top: 1rem;}
+
+.padTop2{padding-top: 1.5rem;}
+
+.padTop3{padding-top: 2rem;}
+
+/* Bottom */
+.padBottom0{padding-bottom: 0.5rem;}
+
+.padBottom1{padding-bottom: 1rem;}
+
+.padBottom2{padding-bottom: 1.5rem;}
+
+.padBottom3{padding-bottom: 2rem;}
+
+
+
 .pad0{padding: 0.5rem;}
 
 .pad1{padding: 1rem;}
