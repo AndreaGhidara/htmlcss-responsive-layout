@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
     <title>htmlcss-responsive-layout</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/utility.css">
-    <script src='https://kit.fontawesome.com/904cc76917.js' crossorigin= 'anonymous'></script>
+    <script src='https://kit.fontawesome.com/904cc76917.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <div class="containerXL bg-primary">
             <div class="navbar box flex flexSpaceBtw flexCenter cl-white">
                 <div class="logo">
-                <img src="./assets/img/logo.png" alt="">
+                    <img src="./assets/img/logo.png" alt="">
                 </div>
                 <div class="menu fsXL">
                     <i class="fa-solid fa-bars"></i>
@@ -25,101 +26,214 @@
     </header>
 
     <main>
-        <!-- section1 -->
-        <div class="box">
-            <div class="card flex flexCol cl-primary bg-skylight ">
-                <div>
-                    <h3 class="titleCard">Get a demo Application</h3>
-                    <p class="textCard">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, quo voluptate laboriosam pariatur quae itaque deserunt ullam est nostrum facere illum quos qui dignissimos omnis sit, dolorum blanditiis. Explicabo, vitae.</p>
-                    <button><i class="fa-brands fa-apple"></i>App store</button>
+        <!-- section1 DemoAplication-->
+        <div class="containerXL">
+            <div class="row pad1">
+                <!-- prima righa di colonne -->
+                <div class="col12 colXL">
+                    <div class="card flex flexCol cl-primary bg-skylight ">
+                        <div class="pad1">
+                            <h3 class="fsXL">Get a demo Application</h3>
+                            <p class="fsL padTop2 padBottom2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Exercitationem, quo voluptate laboriosam pariatur quae itaque deserunt ullam est nostrum
+                                facere illum quos qui dignissimos omnis sit, dolorum blanditiis. Explicabo, vitae.</p>
+                            <button class="btn w100 bg-primary"><i class="fa-brands fa-apple"></i>App store</button>
+                        </div>
+                        <div class="flex flexCol padTop2">
+                            <img class="w100" src="./assets/img/phone.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="flex flexCol">
-                    <img class="w100" src="./assets/img/phone.png" alt="">
+                <div class="col12">
+                    <div class="card pad1 flex flexCol cl-primary bg-skylight alignTextCenter">
+                        <i class="iconCard fa-solid fa-file-code"></i>
+                        <h3 class="fsL pad1">Clean Code</h3>
+                        <p class="fsM pad1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores
+                            ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea
+                            totam accusamus voluptatum minus quaerat voluptatem!</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card flex flexCol cl-primary bg-skylight alignTextCenter">
-                <i class="iconCard fa-solid fa-file-code"></i>
-                <h3 class="titleCard">Clean Code</h3>
-                <p class="textCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea totam accusamus voluptatum minus quaerat voluptatem!</p>
-            </div>
-            <div class="card flex flexCol cl-primary bg-skylight alignTextCenter">
-                <i class="iconCard fa-solid fa-compass-drafting"></i>
-                <h3 class="titleCard">Clean Code</h3>
-                <p class="textCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea totam accusamus voluptatum minus quaerat voluptatem!</p>
-            </div>
-            <div class="card flex flexCol cl-primary bg-skylight alignTextCenter">
-                <i class="iconCard fa-solid fa-laptop-code"></i>
-                <h3 class="titleCard">Clean Code</h3>
-                <p class="textCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea totam accusamus voluptatum minus quaerat voluptatem!</p>
-            </div>
-            <div class="card flex flexCol cl-primary bg-skylight alignTextCenter">
-                <i class="iconCard fa-solid fa-bullhorn"></i>
-                <h3 class="titleCard">Clean Code</h3>
-                <p class="textCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea totam accusamus voluptatum minus quaerat voluptatem!</p>
-            </div>
-        </div>
-        <!-- section2 -->
-        <div class="containerXL bg-secondary cl-white padBottom2">
-            <div class="box marTop2">
-                <div class="w100">
-                    <img class="w100" src="./assets/img/planning1.png" alt="">
-                    <h2 class="sottoTitolo marTop2 marBottom2">Strategic Planing</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus veritatis repellat perferendis vero, vitae, facilis cumque omnis temporibus ex et harum earum eos incidunt possimus? Tempore excepturi laborum perferendis dolorem.</p>
+                <!-- Seconda righa di colonne -->
+                <div class="col12">
+                    <div class="card pad1 flex flexCol cl-primary bg-skylight alignTextCenter">
+                        <i class="iconCard fa-solid fa-compass-drafting"></i>
+                        <h3 class="fsL pad1">Clean Code</h3>
+                        <p class="fsM pad1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores
+                            ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea
+                            totam accusamus voluptatum minus quaerat voluptatem!</p>
+                    </div>
                 </div>
-                <div class="w100 bg-white cl-black alignTextCenter borderRadius pad1">
-                    <img class="w100" src="./assets/img/planning2.png" alt="">
-                    <h3 class="titoloCarta">App Developement</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi earum, unde eaque amet nesciunt, culpa, deserunt quo dolorem magni autem optio! Laudantium numquam omnis quae maxime, et eum eveniet dolore.</p>
-                    <div class="bg-secondary borderRadius w30 marginAuto">
-                        <i class="fa-solid fa-arrow-down"></i>
+                <div class="col12">
+                    <div class="card pad1 flex flexCol cl-primary bg-skylight alignTextCenter">
+                        <i class="iconCard fa-solid fa-laptop-code"></i>
+                        <h3 class="fsL pad1">Clean Code</h3>
+                        <p class="fsM pad1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores
+                            ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea
+                            totam accusamus voluptatum minus quaerat voluptatem!</p>
+                    </div>
+                </div>
+                <div class="col12">
+                    <div class="card pad1 flex flexCol cl-primary bg-skylight alignTextCenter">
+                        <i class="iconCard fa-solid fa-bullhorn"></i>
+                        <h3 class="fsL pad1">Clean Code</h3>
+                        <p class="fsM pad1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolores
+                            ipsa, cumque explicabo incidunt quae id odio ab eum fugit voluptatibus quas consequuntur ea
+                            totam accusamus voluptatum minus quaerat voluptatem!</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- section3 -->
-        <div class="box alignTextCenter">
-            <h4>Testimoneal</h4>
-            <h2>We are commited expert partners</h2>
-            <p>We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.</p>
-            <div class="card bg-secondary flex flexCol flexCenter white">
-                <div class="fremePartner">
-                    <img class="w100 fremePartner" src="./assets/img/testimonial1.jpg" alt="">
+
+        <!-- section2 planing-->
+        <div class="containerXL bg-secondary cl-white padBottom2">
+            <div class="row box marTop2 padBottom2">
+                <div class="col12">
+                    <img class="w100" src="./assets/img/planning1.png" alt="">
+                    <h2 class="subTitle marTop2 marBottom2">Strategic Planing</h2>
+                    <p class="fsL">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus veritatis
+                        repellat perferendis vero, vitae, facilis cumque omnis temporibus ex et harum earum eos incidunt
+                        possimus? Tempore excepturi laborum perferendis dolorem.</p>
                 </div>
-                <p class="marTop2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel molestias soluta, debitis inventore maxime delectus laboriosam, quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a consectetur nisi rerum.</p>
-                <p class="marTop2">NAT REYNOLS</p>
-            </div>
-            <div class="card bg-secondary flex flexCol flexCenter white">
-                <div class="fremePartner">
-                    <img class="w100 fremePartner" src="./assets/img/testimonial2.jpg" alt="">
+                <div class="col12 marTop2 borderRad bg-white cl-black alignTextCenter borderRadius pad1">
+                    <img class="w100" src="./assets/img/planning2.png" alt="">
+                    <h3 class="fsXL marBottom2 fontW600">App Developement</h3>
+                    <p class="marBottom2">
+                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, vero? Aspernatur
+                            voluptatibus voluptatem eligendi ipsum dolore beatae officiis placeat aliquam. Aspernatur
+                            perspiciatis quam rem!
+                        </em>
+                    </p>
+                    <div class="flex flexCenter">
+                        <i class="bg-secondary borderCircle pad1 fa-solid fa-arrow-down"></i>
+                    </div>
                 </div>
-                <p class="marTop2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel molestias soluta, debitis inventore maxime delectus laboriosam, quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a consectetur nisi rerum.</p>
-                <p class="marTop2">CELIA ALMEDA</p>
-            </div>
-            <div class="card bg-secondary flex flexCol flexCenter white">
-                <div class="fremePartner">
-                    <img class="w100 fremePartner" src="./assets/img/testimonial3.jpg" alt="">
-                </div>
-                <p class="marTop2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel molestias soluta, debitis inventore maxime delectus laboriosam, quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a consectetur nisi rerum.</p>
-                <p class="marTop2">BOB ROBERTS</p>
             </div>
         </div>
+
+        <!-- section3 Testimoneal-->
+        <div class="containerXL marBottom2">
+            <div class="box alignTextCenter">
+                <h4 class="fsXL pad2 uppercase fontW300">Testimoneal</h4>
+                <h2 class="fsXXL cl-secondary">We are commited expert partners</h2>
+                <p class="fsL padTop2">We place huge value on strong relationships and have seen the benefit they bring
+                    to our business. Customer feedback is vital in helping us to get it right.</p>
+                <div class="card bg-secondary padTop2 padBottom2 flex flexCol flexCenter white">
+                    <div class="fremePartner">
+                        <img class="w100 fremePartner" src="./assets/img/testimonial1.jpg" alt="">
+                    </div>
+                    <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
+                        consectetur nisi rerum."</p>
+                    <p class="marTop2 fsXL uppercase">NAT REYNOLS</p>
+                </div>
+                <div class="card bg-secondary padTop2 padBottom2 flex flexCol flexCenter white">
+                    <div class="fremePartner">
+                        <img class="w100 fremePartner" src="./assets/img/testimonial2.jpg" alt="">
+                    </div>
+                    <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
+                        consectetur nisi rerum."</p>
+                    <p class="marTop2 fsXL uppercase">CELIA ALMEDA</p>
+                </div>
+                <div class="card bg-secondary padTop2 padBottom2 flex flexCol flexCenter white">
+                    <div class="fremePartner">
+                        <img class="w100 fremePartner" src="./assets/img/testimonial3.jpg" alt="">
+                    </div>
+                    <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
+                        consectetur nisi rerum."</p>
+                    <p class="marTop2 fsXL uppercase">BOB ROBERTS</p>
+                </div>
+            </div>
+        </div>
+
         <!-- section4 -->
+        <div class="containerXL bg-secondary padBottom2">
+            <div class="box">
+                <h2 class="marBottom2 padTop2 alignTextCenter white">
+                    Benefits of working with us
+                </h2>
+                <div class="card bg-white pad2">
+                    <h3 class="cl-secondary subTitle">01</h3>
+                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Hight Quality</p>
+                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                </div>
+                <div class="card bg-white pad2">
+                    <h3 class="cl-secondary subTitle">02</h3>
+                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Creative Team</p>
+                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                </div>
+                <div class="card bg-white pad2">
+                    <h3 class="cl-secondary subTitle">03</h3>
+                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Amazing Results</p>
+                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                </div>
+                <div class="card bg-white pad2">
+                    <h3 class="cl-secondary subTitle">04</h3>
+                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Best Pricing</p>
+                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                </div>
+                <div class="card bg-white pad2">
+                    <h3 class="cl-secondary subTitle">05</h3>
+                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Innovations</p>
+                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                </div>
+                <div class="card bg-white pad2">
+                    <h3 class="cl-secondary subTitle">06</h3>
+                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">24/7 Support</p>
+                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                </div>
+            </div>
+        </div>
+        
         <!-- section5 -->
+        <div class="containerXL padTop2 padBottom2">
+            <div class="box">
+                <h2 class="subTitle marBottom2 cl-secondary">About Us</h2>
+                <p class="spaceFont marBottom2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sapiente? Dignissimos saepe ducimus quisquam praesentium asperiores quibusdam pariatur qui, doloremque nemo hic quos fuga, ex animi eius maxime, nihil amet! Lorem ipsum dolor explicabo eligendi voluptatum in sequi, facilis aspernatur necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cupiditate voluptate pariatur saepe, eius exercitationem minus commodi architecto doloremque, tempora modi nam voluptatum id eum repellat illum sit cum eligendi.</p>
+                <p class="spaceFont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sapiente? Dignissimos saepe ducimus quisquam praesentium asperiores quibusdam pariatur qui, doloremque nemo hic quos fuga, ex animi eius maxime, nihil amet! Lorem ipsum dolor sit, amet eligendi voluptatum in sequi, facilis aspernatur necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cupiditate voluptate pariatur saepe, eius exercitationem minus commodi architecto doloremque, tempora modi nam voluptatum id eum repellat illum sit cum eligendi.</p>
+            </div>
+            <div class="box">
+                <div class="fremePartner marTop2 marBottom2">
+                    <img class="fremePartner" src="./assets/img/about.jpg" alt="">
+                </div>
+                <h3 class="fsXXL cl-secondary fontW600">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h3>
+                <button class="btn bg-secondary white marBottom2 marTop2">
+                    <i class="fa-brands fa-linkedin"></i>
+                    find me on linekin
+                </button>
+            </div>
+        </div>
+
         <!-- section6 -->
+        <div class="containerXL bg-secondary white alignTextCenter padBottom2">
+            <div class="box padTop2">
+                <p class="pad1 fsM fontW200">GET STARTED</p>
+                <h3 class="pad1 spaceFont fsXXL">Simple,transparent Pricing</h3>
+                <h2 class="pad1 title cl-gold fontW600">It' Free!</h2>
+                <p class="pad1 fsM ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quibusdam, dicta quae at Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, veritatis dignissimos quod reiciendis aperiam, temporibus deleniti quis unde  </p>
+                <button class="w100 btn pad1 cl-secondary fsM fontW600">Get Started</button>
+                <p class="pad1 fsS">
+                    copyright 2021 Boolean &#x2022;Classe XX&#x2022;
+                    <a class="white" href="#">privacy policy</a>
+                </p>
+            </div>
+        </div>
     </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        <div class="containerXL bg-footer white alignTextCenter padBottom2 padTop2">
+            <div class="box">
+                <p class="fsS">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus commodi eveniet ex non necessitatibus iste dolores recusandae consequatur est ut</p>
+                <p><a class="cl-secondary" href="#">lorem ipsum</a> parole a caso messe in questo punto</p>
+                <p><a class="cl-secondary" href="#">Boolean Carrears</a></p>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
 </html>

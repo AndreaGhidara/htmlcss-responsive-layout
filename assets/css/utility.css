@@ -1,10 +1,14 @@
 /*****************
     width
 *****************/
+.w30{width: 30%;}
+
+.w50{width: 50%;}
+
+.w60{width: 60%;}
+
 .w100{width: 100%;}
 
-.w30{width: 30%;}
-.w50{width: 50%;}
 
 /* coll */
 
@@ -21,7 +25,6 @@
 .col11{width: calc((100% / 12) * 11);}
 .col12{width: calc((100% / 12) * 12);}
 
-.marginAuto{margin: auto;}
 /*****************
     flex
 *****************/
@@ -38,7 +41,11 @@
 
 .flexSpaceAround{justify-content: space-around;}
 
+.flexEnd{align-items: end;}
+
 .flexWrap{flex-wrap: wrap;}
+
+
 
 /* gap */
 .gap10{gap: 10px;}
@@ -49,7 +56,6 @@
 /*****************
     Container
 *****************/
-
 .containerS{width: 1200px;
     margin: auto;}
 
@@ -72,10 +78,18 @@
 
 .fsXL{font-size:20px;}
 
+.fsXXL{font-size: 26px;}
 
-.subTitle{font-size: 32px;}
+
+.subTitle{font-size: 34px;}
 
 .title{font-size: 40px;}
+
+.fontW200{font-weight: 200;}
+.fontW300{font-weight: 300;}
+.fontW600{font-weight: 600;}
+
+.uppercase{text-transform: uppercase;}
 
 /*****************
     Color
