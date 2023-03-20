@@ -59,19 +59,20 @@
 .cl-black{color: #000000;}
 .cl-gold{color: var(--goldColor);}
 
-/*******************
-********HEADER******
-********************/
-
+/******************
+    Header
+******************/
 /* navbar */
 .navbar{
     padding:1rem 0rem;
 }
 
-/*******************
-********MAIN********
-********************/
 
+
+
+/******************
+    Main
+******************/
 /* section1 */
 .card{
     border-radius: 20px;
@@ -97,6 +98,148 @@ button i{
 
 /* section6 */
 
-/*******************
-********Footer******
-********************/
+/*------------------
+        Footer
+------------------*/
+
+/*---------------------------
+        Display TABLET
+---------------------------*/
+
+@media screen and (min-width: 768px) {
+    /* section1 DemoAplication */
+    .box{
+        width: 90%;
+        margin: auto;
+    }
+
+    .containerXL .demoAplication{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+    }
+
+    #colXL{
+        width: calc(100% / 3 * 2 - 20px);
+    }
+
+    #colXL img{
+        width: 23%;
+    }
+    
+    #colXL .card .imgBox{
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .col12 .card{
+        height: 100%;
+    }
+    
+    .row .col12{
+        width: calc(100% / 3 - 20px);
+    }
+    
+    /* section2 planing */
+    .planing .row{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .planing .col12{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* section3 Testimoneal */
+    .testimoneal .card{
+        width: 100%;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .testimoneal .fremePartner{
+        margin:0px 0.5rem;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .textProfile{
+        margin-left: 2rem;
+    }
+    
+    /* section4 Benefits */
+    .benefits .cardBox{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .benefits .card{
+        width: calc(100% / 2 - 20px);
+    }
+    
+    /* section5 AboutUs */
+    .aboutUs .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .aboutUs .left{
+        width: 50%;
+    }
+
+    .aboutUs .right{
+        width: 30%;
+    }
+    
+    /* section6 getStarted */
+    .getStarted button{
+        width: 30%;
+    }
+}
+
+/*---------------------------
+        Display Monitor
+---------------------------*/
+
+@media screen and (min-width: 1160px) {
+    
+    /* header */
+    header .navbar{
+        width: 80%;
+        margin: auto;
+    }
+    /* main */
+    /* section1 */
+    main .containerXL{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    main .containerXL .demoAplication{
+        width: 100%;
+        margin: auto;
+    }
+
+    #colXL{
+        width: calc(100% / 3 * 2 -15px);
+    }
+    
+    .row .col12{
+        width: calc(100% / 3 - 15px);
+    }
+    
+    /* section2 */
+    .planing .row{
+        display: flex;
+        flex-direction: row;
+        padding-top: 3rem;
+    }
+
+}

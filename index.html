@@ -28,9 +28,9 @@
     <main>
         <!-- section1 DemoAplication-->
         <div class="containerXL">
-            <div class="row pad1">
+            <div class="row pad1 demoAplication">
                 <!-- prima righa di colonne -->
-                <div class="col12 colXL">
+                <div id="colXL" class="col12">
                     <div class="card flex flexCol cl-primary bg-skylight ">
                         <div class="pad1">
                             <h3 class="fsXL">Get a demo Application</h3>
@@ -39,8 +39,8 @@
                                 facere illum quos qui dignissimos omnis sit, dolorum blanditiis. Explicabo, vitae.</p>
                             <button class="btn w100 bg-primary"><i class="fa-brands fa-apple"></i>App store</button>
                         </div>
-                        <div class="flex flexCol padTop2">
-                            <img class="w100" src="./assets/img/phone.png" alt="">
+                        <div class="flex flexCol flexCenter padTop2 imgBox">
+                            <img class="w50" src="./assets/img/phone.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
         </div>
 
         <!-- section2 planing-->
-        <div class="containerXL bg-secondary cl-white padBottom2">
+        <div class="containerXL bg-secondary cl-white padBottom2 planing">
             <div class="row box marTop2 padBottom2">
                 <div class="col12">
                     <img class="w100" src="./assets/img/planning1.png" alt="">
@@ -111,7 +111,7 @@
         </div>
 
         <!-- section3 Testimoneal-->
-        <div class="containerXL marBottom2">
+        <div class="containerXL marBottom2 testimoneal">
             <div class="box alignTextCenter">
                 <h4 class="fsXL pad2 uppercase fontW300">Testimoneal</h4>
                 <h2 class="fsXXL cl-secondary">We are commited expert partners</h2>
@@ -121,95 +121,105 @@
                     <div class="fremePartner">
                         <img class="w100 fremePartner" src="./assets/img/testimonial1.jpg" alt="">
                     </div>
-                    <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
-                        consectetur nisi rerum."</p>
-                    <p class="marTop2 fsXL uppercase">NAT REYNOLS</p>
+                    <div class="textProfile">
+                        <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
+                            consectetur nisi rerum."</p>
+                        <p class="marTop2 fsXL uppercase">NAT REYNOLS</p>
+                    </div>
                 </div>
                 <div class="card bg-secondary padTop2 padBottom2 flex flexCol flexCenter white">
                     <div class="fremePartner">
                         <img class="w100 fremePartner" src="./assets/img/testimonial2.jpg" alt="">
                     </div>
-                    <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
-                        consectetur nisi rerum."</p>
-                    <p class="marTop2 fsXL uppercase">CELIA ALMEDA</p>
-                </div>
+                    <div class="textProfile">
+                        <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
+                            consectetur nisi rerum."</p>
+                        <p class="marTop2 fsXL uppercase">CELIA ALMEDA</p>
+                    </div>
+                    </div>
                 <div class="card bg-secondary padTop2 padBottom2 flex flexCol flexCenter white">
                     <div class="fremePartner">
                         <img class="w100 fremePartner" src="./assets/img/testimonial3.jpg" alt="">
                     </div>
-                    <p class="marTop2 spaceFont fsXL">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
-                        consectetur nisi rerum."</p>
-                    <p class="marTop2 fsXL uppercase">BOB ROBERTS</p>
+                    <div class="textProfile">
+                        <p class="marTop2 spaceFont fsXL ">"Quasi natus quae quibusdam eligendi aliquid quos. Adipisci nihil in a
+                            consectetur nisi rerum."</p>
+                        <p class="marTop2 fsXL uppercase">BOB ROBERTS</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- section4 -->
-        <div class="containerXL bg-secondary padBottom2">
+        <!-- section4 Benefits-->
+        <div class="containerXL bg-secondary padBottom2 benefits">
             <div class="box">
                 <h2 class="marBottom2 padTop2 alignTextCenter white">
                     Benefits of working with us
                 </h2>
-                <div class="card bg-white pad2">
-                    <h3 class="cl-secondary subTitle">01</h3>
-                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Hight Quality</p>
-                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
-                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
-                </div>
-                <div class="card bg-white pad2">
-                    <h3 class="cl-secondary subTitle">02</h3>
-                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Creative Team</p>
-                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
-                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
-                </div>
-                <div class="card bg-white pad2">
-                    <h3 class="cl-secondary subTitle">03</h3>
-                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Amazing Results</p>
-                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
-                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
-                </div>
-                <div class="card bg-white pad2">
-                    <h3 class="cl-secondary subTitle">04</h3>
-                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Best Pricing</p>
-                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
-                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
-                </div>
-                <div class="card bg-white pad2">
-                    <h3 class="cl-secondary subTitle">05</h3>
-                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Innovations</p>
-                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
-                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
-                </div>
-                <div class="card bg-white pad2">
-                    <h3 class="cl-secondary subTitle">06</h3>
-                    <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">24/7 Support</p>
-                    <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
-                    <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                <div class="cardBox">
+                    <div class="card bg-white pad2">
+                        <h3 class="cl-secondary subTitle">01</h3>
+                        <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Hight Quality</p>
+                        <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                        <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                    </div>
+                    <div class="card bg-white pad2">
+                        <h3 class="cl-secondary subTitle">02</h3>
+                        <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Creative Team</p>
+                        <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                        <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                    </div>
+                    <div class="card bg-white pad2">
+                        <h3 class="cl-secondary subTitle">03</h3>
+                        <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Amazing Results</p>
+                        <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                        <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                    </div>
+                    <div class="card bg-white pad2">
+                        <h3 class="cl-secondary subTitle">04</h3>
+                        <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Best Pricing</p>
+                        <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                        <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                    </div>
+                    <div class="card bg-white pad2">
+                        <h3 class="cl-secondary subTitle">05</h3>
+                        <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">Innovations</p>
+                        <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                        <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                    </div>
+                    <div class="card bg-white pad2">
+                        <h3 class="cl-secondary subTitle">06</h3>
+                        <p class="cl-secondary fsXL marTop1 marBottom1 fontW600">24/7 Support</p>
+                        <p class="spaceFont">Lorem ipsum dolor sit amet consectetur adipisicing elit.temporibus quas obcaecati deserunt repudiandae  aliquid fugiat ex?</p>
+                        <button class="btn fsM fontW600 w50 bg-secondary white marTop1">more</button>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <!-- section5 -->
-        <div class="containerXL padTop2 padBottom2">
-            <div class="box">
-                <h2 class="subTitle marBottom2 cl-secondary">About Us</h2>
-                <p class="spaceFont marBottom2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sapiente? Dignissimos saepe ducimus quisquam praesentium asperiores quibusdam pariatur qui, doloremque nemo hic quos fuga, ex animi eius maxime, nihil amet! Lorem ipsum dolor explicabo eligendi voluptatum in sequi, facilis aspernatur necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cupiditate voluptate pariatur saepe, eius exercitationem minus commodi architecto doloremque, tempora modi nam voluptatum id eum repellat illum sit cum eligendi.</p>
-                <p class="spaceFont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sapiente? Dignissimos saepe ducimus quisquam praesentium asperiores quibusdam pariatur qui, doloremque nemo hic quos fuga, ex animi eius maxime, nihil amet! Lorem ipsum dolor sit, amet eligendi voluptatum in sequi, facilis aspernatur necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cupiditate voluptate pariatur saepe, eius exercitationem minus commodi architecto doloremque, tempora modi nam voluptatum id eum repellat illum sit cum eligendi.</p>
-            </div>
-            <div class="box">
-                <div class="fremePartner marTop2 marBottom2">
-                    <img class="fremePartner" src="./assets/img/about.jpg" alt="">
+        <!-- section5 AboutUs-->
+        <div class="containerXL padTop2 padBottom2 aboutUs">
+            <div class="row box">
+                <div class="left">
+                    <h2 class="subTitle marBottom2 cl-secondary">About Us</h2>
+                    <p class="spaceFont marBottom2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sapiente? Dignissimos saepe ducimus quisquam praesentium asperiores quibusdam pariatur qui, doloremque nemo hic quos fuga, ex animi eius maxime, nihil amet! Lorem ipsum dolor explicabo eligendi voluptatum in sequi, facilis aspernatur necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cupiditate voluptate pariatur saepe, eius exercitationem minus commodi architecto doloremque, tempora modi nam voluptatum id eum repellat illum sit cum eligendi.</p>
+                    <p class="spaceFont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, sapiente? Dignissimos saepe ducimus quisquam praesentium asperiores quibusdam pariatur qui, doloremque nemo hic quos fuga, ex animi eius maxime, nihil amet! Lorem ipsum dolor sit, amet eligendi voluptatum in sequi, facilis aspernatur necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cupiditate voluptate pariatur saepe, eius exercitationem minus commodi architecto doloremque, tempora modi nam voluptatum id eum repellat illum sit cum eligendi.</p>
                 </div>
-                <h3 class="fsXXL cl-secondary fontW600">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h3>
-                <button class="btn bg-secondary white marBottom2 marTop2">
-                    <i class="fa-brands fa-linkedin"></i>
-                    find me on linekin
-                </button>
+                <div class="right">
+                    <div class="fremePartner marTop2 marBottom2">
+                        <img class="fremePartner" src="./assets/img/about.jpg" alt="">
+                    </div>
+                    <h3 class="fsXXL cl-secondary fontW600">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h3>
+                    <button class="btn bg-secondary white marBottom2 marTop2">
+                        <i class="fa-brands fa-linkedin"></i>
+                        find me on linekin
+                    </button>
+                </div>
             </div>
         </div>
 
-        <!-- section6 -->
-        <div class="containerXL bg-secondary white alignTextCenter padBottom2">
+        <!-- section6 getStarted-->
+        <div class="containerXL bg-secondary white alignTextCenter padBottom2 getStarted">
             <div class="box padTop2">
                 <p class="pad1 fsM fontW200">GET STARTED</p>
                 <h3 class="pad1 spaceFont fsXXL">Simple,transparent Pricing</h3>
@@ -226,8 +236,8 @@
 
     <footer>
         <div class="containerXL bg-footer white alignTextCenter padBottom2 padTop2">
-            <div class="box">
-                <p class="fsS">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus commodi eveniet ex non necessitatibus iste dolores recusandae consequatur est ut</p>
+            <div class="box padBottom2">
+                <p class="fsS marBottom2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus commodi eveniet ex non necessitatibus iste dolores recusandae consequatur est ut</p>
                 <p><a class="cl-secondary" href="#">lorem ipsum</a> parole a caso messe in questo punto</p>
                 <p><a class="cl-secondary" href="#">Boolean Carrears</a></p>
             </div>
