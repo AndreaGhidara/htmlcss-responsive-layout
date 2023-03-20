@@ -1,0 +1,98 @@
+/*******************
+***GENERAL RULE*****
+********************/
+:root{
+    --primaryColor:#0084fd;
+    --secondaryColor:#9792e4;
+    --tertiaryColor:#333333;
+    --goldColor:#fdc15f;
+    --textLitePurple:#bfbcee;
+    --cardBackground:#b5ddff;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 83%;
+    margin: auto;
+}
+
+/* background */
+.bg-primary{background-color: var(--primaryColor);}
+.bg-skylight{background-color: var(--cardBackground);}
+
+/* color */
+.cl-primary{color: var(--primaryColor);}
+.cl-white{color: white;}
+.cl-black{color: #63798c;}
+
+/*******************
+********HEADER******
+********************/
+/* navbar */
+.navbar{
+    padding:1rem 0rem;
+}
+
+
+/*******************
+********MAIN********
+********************/
+/* section1 */
+
+.card{
+    border-radius: 20px;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.card button{
+    margin: 1.5rem 0;
+    width: 50%;
+    padding: 1em ;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #0084fd;
+}
+
+.card button i{
+    margin-right: 0.5em;
+    font-size: 17px;
+}
+
+.iconCard{
+    font-size: 80px;
+}
+
+.titleCard{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0.8em 0;
+}
+
+.textCard{
+    color: #63798c;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* section2 */
+
+/* section3 */
+
+/* section4 */
+
+/* section5 */
+
+/* section6 */
+
+/*******************
+********Footer******
+********************/
