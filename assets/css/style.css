@@ -62,13 +62,37 @@
 /******************
     Header
 ******************/
+header{
+    position: sticky;
+    top: 0;
+}
 /* navbar */
 .navbar{
     padding:1rem 0rem;
 }
 
+.navbar ul{
+    list-style: none;
+}
 
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
 
+.navbar ul li{
+    padding: 0 0.5rem;
+}
+
+.navbar ul li:hover{
+    transform: translateY(2px);
+    font-weight: 900;
+    color: var(--cardBackground);
+}
+
+.menuList{
+    display: none;
+}
 
 /******************
     Main
@@ -107,7 +131,7 @@ button i{
 ---------------------------*/
 
 @media screen and (min-width: 768px) {
-    /* section1 DemoAplication */
+/* section1 DemoAplication */
     .box{
         width: 90%;
         margin: auto;
@@ -142,7 +166,7 @@ button i{
         width: calc(100% / 3 - 20px);
     }
     
-    /* section2 planing */
+/* section2 planing */
     .planing .row{
         display: flex;
         flex-direction: column;
@@ -154,7 +178,7 @@ button i{
         margin: auto;
     }
 
-    /* section3 Testimoneal */
+/* section3 Testimoneal */
     .testimoneal .card{
         width: 100%;
         flex-direction: row;
@@ -171,7 +195,7 @@ button i{
         margin-left: 2rem;
     }
     
-    /* section4 Benefits */
+/* section4 Benefits */
     .benefits .cardBox{
         display: flex;
         flex-wrap: wrap;
@@ -182,7 +206,7 @@ button i{
         width: calc(100% / 2 - 20px);
     }
     
-    /* section5 AboutUs */
+/* section5 AboutUs */
     .aboutUs .row{
         display: flex;
         flex-direction: row;
@@ -197,7 +221,7 @@ button i{
         width: 30%;
     }
     
-    /* section6 getStarted */
+/* section6 getStarted */
     .getStarted button{
         width: 30%;
     }
@@ -214,8 +238,33 @@ button i{
         width: 80%;
         margin: auto;
     }
+    .navbar i.hamburger{
+        display: none;
+    }
+
+    .navbar .menuList{
+        display:flex;
+    }
+
+    #colXL .card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #colXL .card .left{
+        width: 50%;
+    }
+
+    #colXL .card .right{
+        width: 50%;
+    }
+
+    #colXL img{
+        width: 60%;
+    }
+
     /* main */
-    /* section1 */
+    /* section1 DemoAplication*/
     main .containerXL{
         width: 100%;
         margin: auto;
@@ -231,15 +280,36 @@ button i{
         width: calc(100% / 3 * 2 -15px);
     }
     
-    .row .col12{
+    .demoAplication .row .col12{
         width: calc(100% / 3 - 15px);
     }
-    
-    /* section2 */
+
+    /* section2 planing*/
     .planing .row{
         display: flex;
         flex-direction: row;
-        padding-top: 3rem;
     }
 
+    .planing .row .col12:nth-child(2){
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .secondPlaning{
+        width: 50%;
+    }
+
+    #plan2{
+        width: 50%;
+    }
+
+    /* section4 Benefits*/
+    .benefits .box .card{
+        width: calc(100% / 3 - 20px);
+    }
+    
+    /* section6 getStarted*/
+    div.getStarted{
+        margin-bottom: 0;
+    }
 }
